@@ -1,0 +1,83 @@
+object Form1: TForm1
+  Left = 1135
+  Height = 397
+  Top = 276
+  Width = 454
+  Caption = 'Temporizador Apagado 1.0'
+  ClientHeight = 397
+  ClientWidth = 454
+  Color = 2105376
+  Font.CharSet = BALTIC_CHARSET
+  Font.Color = clRed
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  LCLVersion = '4.0.0.4'
+  object text1: TLabel
+    Cursor = crArrow
+    Left = 56
+    Height = 20
+    Top = 112
+    Width = 348
+    Caption = 'Coloque la cantidad del temporizador en minutos.'
+    Color = clActiveBorder
+    DragCursor = crArrow
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -15
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+  end
+  object Edit1: TEdit
+    Left = 128
+    Height = 23
+    Top = 232
+    Width = 200
+    Color = clWindow
+    DoubleBuffered = True
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentDoubleBuffered = False
+    ParentFont = False
+    TabOrder = 0
+    OnExit = Edit1Exit
+    OnKeyDown = Edit1KeyDown
+  end
+  object Button1: TButton
+    Left = 112
+    Height = 56
+    Top = 200
+    Width = 75
+    Caption = 'Si'
+    TabOrder = 1
+    Visible = False
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 272
+    Height = 57
+    Top = 200
+    Width = 75
+    Caption = 'No'
+    TabOrder = 2
+    Visible = False
+    OnClick = Button2Click
+  end
+  object ToggleBox1: TToggleBox
+    Left = 16
+    Height = 41
+    Top = 8
+    Width = 75
+    Caption = 'Cancelar'
+    Color = 393471
+    TabOrder = 3
+    Visible = False
+    OnChange = ToggleBox1Change
+  end
+end
