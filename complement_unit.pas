@@ -62,7 +62,7 @@ begin
       on E: EConvertError do
         ShowMessage('Por favor, ingrese un número y no un caracter.');
     end;
-  If tiempo>1 then
+  If tiempo>0 then
     begin
       text1.visible:= true;
       text1.caption:='Esta seguro de apagar su PC en '+inttostr(tiempo)+' minutos?';

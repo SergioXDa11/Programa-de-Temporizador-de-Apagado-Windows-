@@ -11,7 +11,7 @@
         <UnitName Value="program_1"/>
         <EditorIndex Value="1"/>
         <TopLine Value="6"/>
-        <CursorPos Y="32"/>
+        <CursorPos X="31" Y="7"/>
         <UsageCount Value="35"/>
         <Loaded Value="True"/>
       </Unit>
@@ -23,8 +23,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Complement_unit"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="38"/>
-        <CursorPos X="54" Y="74"/>
+        <TopLine Value="57"/>
+        <CursorPos X="21" Y="71"/>
         <UsageCount Value="35"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -38,10 +38,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="complement_unit.pas"/>
-        <Caret Line="21" Column="45" TopLine="7"/>
-      </Position>
       <Position>
         <Filename Value="complement_unit.pas"/>
         <Caret Line="62" Column="6" TopLine="62"/>
@@ -157,6 +153,10 @@
       <Position>
         <Filename Value="complement_unit.pas"/>
         <Caret Line="73" Column="19" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="complement_unit.pas"/>
+        <Caret Line="74" Column="54" TopLine="38"/>
       </Position>
     </JumpHistory>
     <RunParams>
