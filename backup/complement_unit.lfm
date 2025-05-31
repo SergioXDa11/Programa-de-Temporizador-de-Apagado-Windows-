@@ -3,7 +3,7 @@ object Form1: TForm1
   Height = 397
   Top = 408
   Width = 454
-  Caption = 'Temporizador Apagado v2.0'
+  Caption = 'Temporizador Apagado 1.0'
   ClientHeight = 397
   ClientWidth = 454
   Color = 2105376
